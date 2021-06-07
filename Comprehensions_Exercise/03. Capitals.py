@@ -1,0 +1,1 @@
+{print(f"{country} -> {capital}") for country, capital in dict(zip(input().split(", "), input().split(", "))).items()}

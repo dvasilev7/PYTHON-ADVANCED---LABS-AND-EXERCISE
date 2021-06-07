@@ -1,0 +1,1 @@
+print(", ".join(f"{key} -> {value}" for key, value in {word: len(word) for word in input().split(", ")}.items()))
